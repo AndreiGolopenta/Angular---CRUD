@@ -3,7 +3,7 @@
 ## Description
 
 This is a CRUD application using multiple jokes as data entry . 
-Beside the basic operations the application it has a search option after title/content; and a filter by joke's category;
+Beside the basic operations the application it has a search option after title/content and a filter by joke's category;
 
 ## Built with
 * Angular
