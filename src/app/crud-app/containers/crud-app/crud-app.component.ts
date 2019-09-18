@@ -1,4 +1,4 @@
-import { Component, OnInit, OnChanges } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CrudService } from '../../services/crud-service.service';
 import { Joke } from '../../models/joke.interface';
 
@@ -7,7 +7,7 @@ import { Joke } from '../../models/joke.interface';
   templateUrl: './crud-app.component.html',
   styleUrls: ['./crud-app.component.scss'],
 })
-export class CrudAppComponent implements OnInit, OnChanges {
+export class CrudAppComponent implements OnInit {
 
   category: string[] = [];
   jokeNumber: number;
@@ -26,7 +26,4 @@ export class CrudAppComponent implements OnInit, OnChanges {
     this.crudService.sendAvailableCategory(this.category);
   }
 
-  ngOnChanges(changes){ 
-    console.log(changes);
-  }
 }
