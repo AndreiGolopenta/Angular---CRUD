@@ -1,0 +1,13 @@
+<mat-sidenav-container class="container">
+  <mat-sidenav mode="side" [opened]="opened">
+    <div *ngFor="let button of buttons">
+      <app-side-nav-button
+        [button]="button"
+        (selectButton)="handleSelectButton($event)">
+      </app-side-nav-button>
+    </div>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

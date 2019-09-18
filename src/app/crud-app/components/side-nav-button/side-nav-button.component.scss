@@ -1,0 +1,13 @@
+button {
+  width: 249px;
+  display: flex;
+  justify-content: flex-start;
+  color: #fafbfd;
+  height: 50px;
+  line-height: 55px;
+  .material-icons {
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+}

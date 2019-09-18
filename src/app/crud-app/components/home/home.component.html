@@ -1,0 +1,17 @@
+<div [ngStyle]="{ top: position }">
+  <mat-card>
+    <mat-card>
+      Application info
+    </mat-card>
+    <mat-list role="list">
+      <mat-list-item role="listitem"
+        >This is a CRUD application with the following functionalities
+        :</mat-list-item
+      >
+      <mat-list-item role="listitem" *ngFor="let item of items">
+        <i class="material-icons">check_circle_outline</i>
+        {{ item }}
+      </mat-list-item>
+    </mat-list>
+  </mat-card>
+</div>

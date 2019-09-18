@@ -1,0 +1,7 @@
+<button
+  mat-flat-button
+  [ngStyle]="{ backgroundColor: button.value ? '#243A9A' : '#3b5998' }"
+  (click)="buttonAction(button.route)">
+  <i class="material-icons">{{ button.icon }}</i>
+  {{ button.name }}
+</button>

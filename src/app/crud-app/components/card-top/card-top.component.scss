@@ -1,0 +1,22 @@
+
+mat-card {
+  z-index: 2;
+  padding: 22px 0 22px 30px;
+  border-radius: 0 0 4px 4px;
+  color: #545e6f;
+  button {
+    padding: 0;
+    min-width: 35px;
+  }
+  .title {
+    position: absolute;
+    top: 32px;
+    left: 64px;
+  }
+  .total-jokes {
+    position: absolute;
+    top: 32px;
+    right: 50px;
+  }
+  
+}

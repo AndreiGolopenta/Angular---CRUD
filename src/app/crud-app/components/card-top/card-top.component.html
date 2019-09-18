@@ -1,0 +1,9 @@
+<mat-card
+  [ngStyle]="{ width: (router.url === '/display-jokes' ? width: null) }">
+  <button mat-button (click)="sideNavOpenClose()"><i class="material-icons">menu</i></button>
+  <span class="title">CRUD application</span>
+  <span 
+    class="total-jokes">
+    Total jokes : <strong>{{ jokeNumber }}</strong>
+  </span>
+</mat-card>

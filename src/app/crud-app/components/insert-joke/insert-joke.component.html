@@ -1,0 +1,56 @@
+<mat-horizontal-stepper 
+  labelPosition="bottom" 
+  #stepper 
+  class="insert-joke"
+  [ngStyle]="{ width: width }"
+  [linear]="true">
+    <mat-step [stepControl]="firstFormGroup">
+        <form [formGroup]="firstFormGroup">
+            <ng-template matStepLabel>Fill out your title</ng-template>
+            <mat-form-field>
+              <input matInput placeholder="Title" formControlName="title" required>
+            </mat-form-field>
+            <div>
+              <button mat-button matStepperNext>Next</button>
+            </div>
+        </form>
+    </mat-step>
+    <mat-step [stepControl]="secondFormGroup">
+        <form [formGroup]="secondFormGroup">
+            <ng-template matStepLabel>Fill out your content</ng-template>
+            <mat-form-field class="textarea-input">
+              <textarea
+                matInput
+                placeholder="Content"
+                formControlName="content"
+                required>
+              </textarea>
+            </mat-form-field>
+            <div>
+              <button mat-button matStepperPrevious>Back</button>
+              <button mat-button matStepperNext>Next</button>
+            </div>
+        </form>
+    </mat-step>
+    <mat-step [stepControl]="thirdFormGroup">
+      <form [formGroup]="thirdFormGroup">
+        <ng-template matStepLabel>Fill out your category</ng-template>
+        <mat-form-field>
+          <input matInput placeholder="Category" formControlName="category" required>
+        </mat-form-field>
+        <div>
+          <button mat-button matStepperPrevious>Back</button>
+          <button mat-button matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step>
+        <ng-template matStepLabel>Done</ng-template>
+        You are now done.
+        <div>
+          <button mat-button matStepperPrevious>Back</button>
+          <button mat-button (click)="submitJoke()">Submit</button>
+        </div>
+    </mat-step>
+</mat-horizontal-stepper>
+

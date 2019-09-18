@@ -1,0 +1,104 @@
+{
+  "jokes": [
+    {
+      "title": "WORK AND LIFE",
+      "content": "I received a letter saying I would not be given the American Express credit card I’d requested because my income wasn’t substantial enough. Oddly enough, I work for American Express.",
+      "category": "Money Jokes",
+      "id": 2
+    },
+    {
+      "title": "IN THE FREEZER  ",
+      "content": "My husband is—how should I put this—cheap, once going so far as to reuse the freezer bags our grown daughter Molly left behind after a visit. Needless to say, it gave me a start when, looking through the freezer, I found packages labeled steak, chicken breast, and Molly.",
+      "category": "Money Jokes",
+      "id": 3
+    },
+    {
+      "title": "Attack 2",
+      "content": "I overheard two EMT volunteers talking about the time they went to the aid of an elderly man. As one took down his information, the other opened his shirt to…",
+      "category": "Doctor Jokes",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "category": "Doctor Jokes",
+      "title": "GOING TO THE DOCTOR",
+      "content": "My husband went to the cardiologist after experiencing symptoms of a heart attack. 'I had taken our cat to the vet,' he told the nurse, 'and while I was there, my chest got tight, and I had trouble breathing. Later, my left arm began aching.'The nurse was clearly concerned. 'So,' she asked, 'how was the cat?'"
+    },
+    {
+      "id": 6,
+      "category": "Food Jokes",
+      "title": "CRABBY!",
+      "content": "What do you get if you cross an apple with a shellfish? A crab apple!"
+    },
+    {
+      "id": 7,
+      "category": "Food Jokes",
+      "title": "TIC TAC DOUGH",
+      "content": "Did you hear the one about the guy who invented Tic Tacs? They say he made a mint."
+    },
+    {
+      "id": 8,
+      "category": "Travel Jokes",
+      "title": "TIME TRAVELERS",
+      "content": "We are all time travelers moving at the speed of exactly 60 minutes per hour."
+    },
+    {
+      "id": 9,
+      "category": "Travel Jokes",
+      "title": "AIRPORT CARPOOL",
+      "content": "My cat constantly looks at me like I asked her to give me a ride to the airport."
+    },
+    {
+      "id": 10,
+      "category": "Travel Jokes",
+      "title": "OLD AND NEW TRAVELS",
+      "content": "Young riders pick a destination and go… Old riders pick a direction and go."
+    },
+    {
+      "id": 11,
+      "category": "Weather Jokes",
+      "title": "RAINING MONEY",
+      "content": "Q: When does it rain money? A: When there is “change” in the weather."
+    },
+    {
+      "id": 12,
+      "category": "Weather Jokes",
+      "title": "WINTER PUNDERLAND",
+      "content": "As we waited for a bus in the frosty weather, the woman next to me mentioned that she makes a lot of mistakes when texting in the cold. I nodded…"
+    },
+    {
+      "id": 13,
+      "category": "Weather Jokes",
+      "title": "LEW SCHNEIDER ON SUNBLOCK",
+      "content": "We use a really strong sunblock when we go to the beach with the kids. It’s SPF 80: You squeeze the tube, and a sweater comes out."
+    },
+    {
+      "id": 14,
+      "category": "Military Jokes",
+      "title": "NEVER LOSE A TANK",
+      "content": "When I lost my rifle, the Army charged me $85. That’s why in the Navy, the captain goes down with the ship."
+    },
+    {
+      "id": 15,
+      "category": "Military Jokes",
+      "title": "SKY'S THE LIMIT",
+      "content": "Humankind has a perfect record in aviation; we never left one up there."
+    },
+    {
+      "id": 16,
+      "category": "Military Jokes",
+      "title": "MILITANT ROACHES",
+      "content": "I’m convinced my cockroaches have military training. I set out a roach bomb—they defused it."
+    },
+    {
+      "title": "A SECOND OPINION",
+      "content": "Lenny tells the psychiatrist, “Every time I get into bed, I think there’s somebody under it.”\n\n“Come to me three times a week for two years, and I’ll cure your fears,” says the shrink. “And I’ll charge you only $200 a visit.”\n\nLenny says he’ll think about it. Six months later, he runs into the doctor, who asks why he never came back. “For $200 a visit?” says Lenny. “A bartender cured me for $10.”\n\n“Is that so! How?”\n\n“He told me to cut the legs off the bed.”",
+      "category": "Doctor Jokes",
+      "search": false,
+      "titlePart1": "",
+      "titlePart2": "",
+      "titlePart3": "",
+      "id": 17
+    }
+  ]
+}

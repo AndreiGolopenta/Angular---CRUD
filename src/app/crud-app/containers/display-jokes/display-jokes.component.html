@@ -1,0 +1,20 @@
+<div>
+  <app-search
+    (sendSearchInput)="handleSearch($event)">
+  </app-search>
+  <app-view-settings
+    [category]="showCategory"
+    [deleteJoke]="deleteJoke"
+    (sendDeleteJoke)="handleDeleteOutput($event)"
+    (sendCategories)="handleCategories($event)">
+  </app-view-settings>
+  <ng-container 
+    *ngFor="let joke of jokes">
+    <app-joke-detail
+      *ngIf="showCategory.indexOf(joke.category) !== -1 && !joke.search"
+      [detail]="joke"
+      (editJoke)="handleEdit($event)"
+      (deleteJoke)="handleDelete($event)">
+    </app-joke-detail>
+  </ng-container>
+</div>

@@ -1,0 +1,23 @@
+<mat-accordion>
+    <mat-expansion-panel 
+      (opened)="panelOpenState = true"
+      (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <strong>Search</strong>
+        </mat-panel-title>
+        <mat-panel-description>
+          Search jokes
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <p>
+        <mat-form-field class="example-full-width">
+          <input 
+            matInput 
+            #searchInput
+            placeholder="Search"
+            (keyup)="search(searchInput.value)">
+        </mat-form-field>
+      </p>
+    </mat-expansion-panel>
+  </mat-accordion>

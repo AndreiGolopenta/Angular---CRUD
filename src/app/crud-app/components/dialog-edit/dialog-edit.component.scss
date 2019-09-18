@@ -1,0 +1,13 @@
+.example-container {
+  display: flex;
+  flex-direction: column;
+  .error {
+    position: relative;
+    top: -16px;
+    font-size: 12px;
+  }
+}
+
+.example-container > * {
+  width: 100%;
+}

@@ -1,0 +1,15 @@
+.example-card {
+  max-width: 800px;
+  margin: 12px;
+  mat-card-content {
+    p {
+      margin-left: 16px;
+    }
+  }
+  mat-card-actions {
+    button {
+      position: relative;
+      left: 23px;
+    }
+  }
+}

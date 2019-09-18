@@ -1,0 +1,29 @@
+<mat-accordion>
+  <mat-expansion-panel 
+    (opened)="panelOpenState = true"
+    (closed)="panelOpenState = false">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <strong>Settings</strong>
+      </mat-panel-title>
+      <mat-panel-description>
+        Category selection
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <p>
+      <mat-card>
+        <mat-selection-list
+          #list
+          [ngModel]="cloneCategory"
+          (ngModelChange)="selectedCategories($event)">
+          <mat-list-option
+            *ngFor="let entry of cloneCategory"
+            [value]="entry"
+            selected>
+            {{ entry }}
+          </mat-list-option>
+        </mat-selection-list>
+      </mat-card>
+    </p>
+  </mat-expansion-panel>
+</mat-accordion>
